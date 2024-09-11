@@ -1,0 +1,83 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /* height: 500px; */
+}
+
+
+
+.column-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+.mark{
+    margin: 0px 30px;
+}
+.mark img{
+    height: 15em;
+}
+
+.icon img{
+    height: 10em;
+}
+
+.icon{
+    margin-right: 5%;
+    text-align: center;
+}
+
+
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:220px;
+}
+
+.try-again{
+    border: 1px solid purple;
+    font-size: 20px;
+    padding: 10px;
+    background: purple;
+    border-radius: 9px;
+    /* margin-right: 45px; */
+    margin-left: 5%;
+    
+}
+
+.try-again a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.log-out{
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 10px;
+    background: red;
+    border-radius: 9px;
+    margin-right: 5%;
+
+}
+
+.log-out a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.log-out a:hover{
+    color: #FFC000;
+}
+
+.try-again a:hover{
+    color: #FFC000;
+}
+
+

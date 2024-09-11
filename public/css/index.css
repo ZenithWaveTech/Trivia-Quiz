@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: url(/images/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.font-wrap{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+header #left-word{
+    font-family: Rockwell Extra;
+    font-weight: bolder;
+    font-size: 10px;
+
+}
+
+header #left-word h1{
+    color: #fff;
+}
+
+#middle-word{
+    display: flex;
+    gap: 20px;
+    font-family: lato;
+    font-size: 8px;
+}
+
+#middle-word a:hover{
+    color: yellow;
+}
+
+#right-word a:hover{
+    color: yellow;
+}
+
+#middle-word h1 a{
+    color: #fff;
+}
+
+#right-word{
+    display: flex;
+    gap: 10px;
+    margin-right: 220px;
+    font-family: lato;
+    margin-right: 20px;
+}
+
+#right-word a{
+    color: #fff;
+}
+
+
+#login{
+    color: #fff;
+    font-size: 17px;
+    padding: 3px;    
+}
+
+#registration{
+    background: purple;
+    font-size: 17px;
+    border: 2px solid purple;
+    padding: 3px;
+    border-radius: 9px;
+}
+
+.main-site{
+    margin-top: 6%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-icon{
+    margin-right: 200px;
+}
+
+.img-icon img{
+    height: 19.4em;
+}
+
+#text-1{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: medium;
+    font-family: IM FELL Double Pica SC;
+}
+
+#text-2{
+    color: #fff;
+    font-size: 7px;
+    font-family: Lato;
+}
+#icon{
+    margin-top: 60px;
+}
+
+#icon{
+    background: yellow;
+    font-size: 17px;
+    border: 2px solid yellow;
+    padding: 3px;
+    border-radius: 9px;
+    width: 35%;
+    font-weight: bold;
+    
+}
+
+.icon-text{
+    color: black;
+
+}
+
+.fa{
+    padding-right: 5px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    border: 1px solid #D9D9D9;
+    height: 170px;
+    /* margin-top: 17px; */
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+#daily-trivia{
+    height: 7em;
+    width: 12em;
+    border: 2px solid black;
+    cursor: pointer;
+    padding-top: 6px;
+    
+}
+
+.trivia-content{
+    display: flex;
+    gap: 3px;
+    margin-bottom: 10px;
+}
+
+#ic img {
+    height: 4em;
+}
+
+#ic-2 img {
+    height: 3.7em;
+}
+
+#ic-2{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+#ic-3 img {
+    height: 3.4em;
+}
+
+#ic-3{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+#text{
+    align-self: center;
+}
+
+#text h3{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.play-now{
+    margin-left: 50px;
+    font-weight:bolder;
+    font-size: large;
+}
+
+#daily-trivia{
+    border-radius: 10px;
+}
+
+span img{
+    width: 20px;
+    margin-left: 8px;
+}
+
+#daily-win {
+    height: 7em;
+    width: 12em;
+    border: 2px solid purple;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#daily-trivia:hover{
+    border-color: yellow;
+}
+
+#daily-win:hover{
+    border-color: yellow;
+}
+
+#daily-king:hover{
+    border-color: yellow;
+}
+
+#daily-king{
+    height: 7em;
+    width: 12em;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#icon :hover{
+    color: purple;
+}
+
+
+

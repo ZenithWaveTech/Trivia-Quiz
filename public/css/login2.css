@@ -1,0 +1,126 @@
+body{
+    background: url(/images/sign-back.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    /* padding: 55px; */
+    padding-top: 5%;
+    height: 400px;
+}
+
+#user{
+    margin-top: 10px;
+    color: #fff;
+}
+
+#user img{
+    height: 6em;
+
+}
+
+.credentials2{
+    margin-bottom: 0px;
+    /* color: #fff; */
+}
+
+.container{
+    margin-left: 90px;
+}
+
+.credentials3{
+    margin-bottom: 20px;
+    margin-top: 0;
+    /* color: #fff; */
+}
+
+.text3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+
+.text2{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.credentials2 input{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+    /* color: #FFC000; */
+}
+
+.credentials3 input{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+
+#form-logo img{
+    height: 15em;
+    margin-left: 400px;
+}
+
+#submit{
+    margin-left: 20%;
+    margin-bottom: -20px;
+}
+
+.btn{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid #FFC000;
+    background: #FFC000;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.terms{
+    width: 170%;
+    margin-top: 165px;
+    margin-bottom: 0px;
+}
+
+.terms h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.terms a{
+    color: #77536F;
+    margin: 0px 4px;
+    text-decoration: none;
+}
+
+#submit button:hover{
+    color: gray;
+}
+
+.register h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.register a{
+    color: #77536F;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.register{
+    margin-top: 30%;
+    margin-bottom: -140px;
+}
+
+input::placeholder {
+    opacity: 0.5; /* Adjust the value as needed (0 is fully transparent, 1 is fully opaque) */
+  }

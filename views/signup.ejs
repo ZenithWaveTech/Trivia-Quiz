@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/signup.css">
+</head>
+<body>
+    <div class="container2">
+        <div id="signup">
+            <h1>Sign up</h1>
+        </div>
+        <%- include ("./partials/messages"); %>
+        <form action="/users/signup" method="POST">
+            <div class="credentials1">
+                <h3 class="text1">Name</h3>
+                <input 
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="credentials1"
+                    style="color: #800080;"
+                    placeholder="Destiny Japhet"
+                    value="<%= typeof name != 'undefined' ? name : '' %>"
+                />
+            </div>
+            <div class="credentials2">
+                <h3 class="text2">Email</h3>
+                <input 
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="credentials2"
+                    style="color: #800080;"
+                    placeholder="japhet1234@gmail.com"
+                    value="<%= typeof email != 'undefined' ? email : '' %>"
+                />
+            </div>
+            <div class="credentials3">
+                <h3 class="text3">Password</h3>
+                <input 
+                    type="password"
+                    id="password"
+                    name="password"
+                    class="credentials3"
+                    style="color: #800080;"
+                    placeholder="......."
+                    value="<%= typeof password != 'undefined' ? password : '' %>"
+                />
+            </div>
+            <div class="credentials4">
+                <h3 class="text4">Confirm Password</h3>
+                <input 
+                    type="password"
+                    id="password2"
+                    name="password2"
+                    class="credentials4"
+                    style="color: #800080;"
+                    placeholder="......."
+                    value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+                />
+            </div>
+            <div id="submit">
+                <button type="submit" class="btn">Sign up</button>
+            </div>
+        </form>
+        <div class="register">
+            <span><h3>Already have an account? <a href="/users/login">Sign in.</a></h3></span>
+        </div>
+        <div class="terms">
+            <span><h3>By continuing, you agree to the <a href="https://www.google.com/">Terms</a> and <a href="https://www.google.com/">Conditions</a>.</h3></span>
+        </div>
+    </div>
+</body>
+</html>

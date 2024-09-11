@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/login2.css">
+</head>
+<body>
+    <div class="container">
+        <div id="user">
+            <img src="/images/user.png" alt="user">
+        </div>
+        <%- include ("./partials/messages"); %>
+        <form action="/users/login" method="POST">
+            <div class="credentials2">
+                <h3 class="text2">Email</h3>
+                <input 
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="credentials2"
+                    placeholder="Destiny"
+                    style="color: #800080;">
+            </div>
+            <div class="credentials3">
+                <h3 class="text3">Password</h3>
+                <input 
+                    type="password"
+                    id="password"
+                    name="password"
+                    class="credentials3"
+                    placeholder="......."
+                    style="color: #800080;">
+            </div>
+            <div id="submit">
+                <button type="submit" class="btn">Login</button>
+            </div>
+        </form>
+        <div class="register">
+            <span><h3>Don't have an account? <a href="/users/signup">Sign up.</a></h3></span>
+        </div>
+        <div class="terms">
+            <span><h3>By continuing, you agree to the <a href="https://www.google.com/">Terms</a>and <a href="https://www.google.com/">Conditions</a>.</h3></span>
+        </div>
+    </div>
+</body>
+</html>

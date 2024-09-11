@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/game.css">
+</head>
+<body>
+    <div class="top">
+        <div class="text">T.QUIZZ</div>
+        <div class="difficulty">
+            <div class="left"><%= letter %></div>
+            <div id="right">
+                <div id="hard"></div>
+                <div id="medium"></div>
+                <div id="easy"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <h3 class="text2">Question</h3>
+    <div class="question-index">
+        <h3 id="start">1</h3>
+        <h3>/</h3>
+        <h3 id="end">20</h3>
+    </div>
+    <div class="timer">
+        <img src="/images/alarm-clock.png" alt="">
+        <div class="time-count">
+            <h3>Time: </h3>
+            <h3 id="time"> 20 </h3>
+            <h3>secs</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="app">
+            <h1 id="questionHeader">What is the name of your favourite place?</h1>
+            <div id="quizOptions">
+                <button class="option"></button>
+                <button class="option"></button>
+                <button class="option"></button>
+                <button class="option"></button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/game.js"></script>
+</body>
+</html>

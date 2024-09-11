@@ -1,0 +1,105 @@
+body{
+    background: url('../img/sign-in.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    padding: 60px;
+    height: 550px;
+}
+
+#user{
+    margin-top: 10px;
+    color: #fff;
+}
+
+#user img{
+    height: 6em;
+
+}
+
+.credentials1{
+    margin-bottom: 0px;
+    /* color: #fff; */
+}
+
+.container{
+    margin-left: 90px;
+}
+
+.credentials2{
+    margin-bottom: 20px;
+    margin-top: 0;
+    /* color: #fff; */
+}
+
+.text2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+
+.text1{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.credentials1 input{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+    /* color: #FFC000; */
+}
+
+.credentials2 input{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+
+#form-logo img{
+    height: 29em;
+    margin-left: 350px;
+}
+
+#submit{
+    margin-left: 20%;
+}
+
+.btn{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid #FFC000;
+    background: #FFC000;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.terms{
+    width: 170%;
+    margin-top: 165px;
+    margin-bottom: 0px;
+}
+
+.terms h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.terms a{
+    color: #FFC000;
+    margin: 0px 4px;
+    text-decoration: none;
+}
+
+#submit button:hover{
+    color: gray;
+}
+
+
